@@ -46,8 +46,11 @@ function Navbar ({currentPage, handlePageChange}) {
                 Contact
               </a>
             </li>
-                </ul>
+            </ul>
             </div>
         </nav>
     )
 }
+
+
+export default  Navbar;
