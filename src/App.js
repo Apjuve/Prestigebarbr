@@ -1,11 +1,9 @@
-import './App.css';
-import Hero from './components/sections/Hero.js'
-import About from "./components/sections/About.js"
-import Contact from "./components/sections/Contact.js"
-import Footer from "./components/sections/Footer.js"
-import Header from "./components/sections/Header.js"
-import Home from "./components/sections/Home.js"
-import Services from "./components/sections/Services.js"
+import './Apps.css';
+import Hero from './components/sections/Heros.js'
+import About from "./components/sections/Abouts.js"
+import Footer from "./components/sections/Footers.js"
+import Header from "./components/sections/Headers.js"
+import Services from "./components/sections/Service.js"
 
 
 
