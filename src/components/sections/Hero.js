@@ -1,9 +1,12 @@
 import React from 'react'
+import heroImg from '../../images/Hero.jpg';
+import Home from './Home';
 
 const hero = () => {
   return (
     <div class="hero">
-      <img src="assets/images/Hero.jpg" class="home__img" alt="" />
+      <img src={heroImg} class="home__img" alt="" />
+      <Home></Home>
     </div>
 
   )

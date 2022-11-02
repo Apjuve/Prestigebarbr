@@ -1,4 +1,10 @@
 import React from 'react'
+import lineup from '../../images/Lineup.jpg';
+import haircut from '../../images/haircut.jpg';
+import styling from '../../images/styling.jpg';
+import products from '../../images/products.jpg';
+import equipment from '../../images/equipment.jpg';
+import chair from '../../images/chair.jpg';
 
 const services = () => {
   return (
@@ -8,19 +14,19 @@ const services = () => {
       <div class="services__images">
 
         <div class="img__block">
-          <img class="service__img-1" src="assets/images/Lineup.jpg" alt="" />
+          <img class="service__img-1" src={lineup} alt="" />
           <div class="text__box">
             <p>Line-ups</p>
           </div>
         </div>
         <div class="img__block">
-          <img class="service__img-2" src="assets/images/haircut.jpg" alt="" />
+          <img class="service__img-2" src={haircut} alt="" />
           <div class="text__box">
             <p>Beard Trims</p>
           </div>
         </div>
         <div class="img__block">
-          <img class="service__img-3" src="assets/images/styling.jpg" alt="" />
+          <img class="service__img-3" src={styling} alt="" />
           <div class="text__box">
             <p>Styling</p>
           </div>
@@ -28,7 +34,7 @@ const services = () => {
 
 
         <div class="img__block">
-          <img class="service__img-4" src="assets/images/products.jpg" alt="" />
+          <img class="service__img-4" src={products} alt="" />
           <div class="text__box">
             <p>Quality Products</p>
           </div>
@@ -36,7 +42,7 @@ const services = () => {
         <div class="img__block">
           <img
             class="service__img-5"
-            src="assets/images/equipment.jpg"
+            src={equipment}
             alt=""
           />
           <div class="text__box">
@@ -44,7 +50,7 @@ const services = () => {
           </div>
         </div>
         <div class="img__block">
-          <img class="service__img-6" src="assets/images/chair.jpg" alt="" />
+          <img class="service__img-6" src={chair} alt="" />
           <div class="text__box">
             <p>Comfortable Experience</p>
           </div>

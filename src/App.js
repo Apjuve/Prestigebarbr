@@ -14,13 +14,12 @@ import Services from "./components/sections/Services.js"
 function App() {
     return (
         <>
-        <Hero/>
-        <Header/>
-        <Home/>
-        <About/>
-        <Services/>
-        <Footer/>
-        
+            <Hero />
+            <Header />
+            <About />
+            <Services />
+            <Footer />
+
 
         </>
     );
