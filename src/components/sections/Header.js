@@ -1,6 +1,8 @@
 import React from 'react'
 
-const header = () => {
+const Header = () => {
+  const [menuState, setMenuState] = React.useState(false);
+
   function scrollHeader() {
     const header = document.getElementById('header');
 
@@ -9,6 +11,8 @@ const header = () => {
   }
 
   window.addEventListener('scroll', scrollHeader);
+
+
   return (
     <header className="header" id="header">
       <nav className="nav container">
@@ -16,7 +20,7 @@ const header = () => {
         >Prestige<span className="logo-alternate">Barber</span></a
         >
 
-        <div className="nav__menu" id="nav-menu">
+        <div className={`nav__menu ${menuState ? ' show-menu' : ''}`} id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
               <a href="#" className="nav__link">Home</a>
@@ -32,17 +36,17 @@ const header = () => {
             </li>
           </ul>
 
-          <i className="ri-close-line nav__close" id="nav-close"></i>
+          <i className="ri-close-line nav__close" id="nav-close" onClick={() => setMenuState(false)}></i>
         </div>
 
-        <div className="nav__toggle" id="nav-toggle">
-          <i className="ri-function-line"></i>
+        <div className="nav__toggle" id="nav-toggle" onClick={() => setMenuState(true)}>
+          <i className="ri-function-line" ></i>
         </div>
       </nav>
     </header>
   )
 }
 
-export default header
+export default Header
 
 
