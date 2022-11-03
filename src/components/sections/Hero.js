@@ -4,8 +4,8 @@ import Home from './Home';
 
 const hero = () => {
   return (
-    <div class="hero">
-      <img src={heroImg} class="home__img" alt="" />
+    <div className="hero">
+      <img src={heroImg} className="home__img" alt="" />
       <Home></Home>
     </div>
 

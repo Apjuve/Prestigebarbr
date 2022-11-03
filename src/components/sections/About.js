@@ -4,10 +4,10 @@ import aboutImg2 from '../../images/about2.jpg';
 
 const about = () => {
   return (
-    <section id="about" class="about__section container section">
-      <h2 class="section__title section__title-center">About</h2>
-      <div class="about__info">
-        <div class="about__text">
+    <section id="about" className="about__section container section">
+      <h2 className="section__title section__title-center">About</h2>
+      <div className="about__info">
+        <div className="about__text">
           <h3>Prestige Barbershop</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
@@ -16,14 +16,14 @@ const about = () => {
             debitis asperiores cum!
           </p>
         </div>
-        <div class="about__images">
+        <div className="about__images">
           <img
-            class="first__image"
+            className="first__image"
             src={aboutImg}
             alt="barber's equipment on desk"
           />
           <img
-            class="second__image"
+            className="second__image"
             src={aboutImg2}
             alt="trimming hair with scissors"
           />

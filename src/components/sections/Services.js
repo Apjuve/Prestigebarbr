@@ -8,50 +8,50 @@ import chair from '../../images/chair.jpg';
 
 const services = () => {
   return (
-    <section id="services" class="services__section container section">
-      <h2 class="section__title section__title-center">Services</h2>
+    <section id="services" className="services__section container section">
+      <h2 className="section__title section__title-center">Services</h2>
 
-      <div class="services__images">
+      <div className="services__images">
 
-        <div class="img__block">
-          <img class="service__img-1" src={lineup} alt="" />
-          <div class="text__box">
+        <div className="img__block">
+          <img className="service__img-1" src={lineup} alt="" />
+          <div className="text__box">
             <p>Line-ups</p>
           </div>
         </div>
-        <div class="img__block">
-          <img class="service__img-2" src={haircut} alt="" />
-          <div class="text__box">
+        <div className="img__block">
+          <img className="service__img-2" src={haircut} alt="" />
+          <div className="text__box">
             <p>Beard Trims</p>
           </div>
         </div>
-        <div class="img__block">
-          <img class="service__img-3" src={styling} alt="" />
-          <div class="text__box">
+        <div className="img__block">
+          <img className="service__img-3" src={styling} alt="" />
+          <div className="text__box">
             <p>Styling</p>
           </div>
         </div>
 
 
-        <div class="img__block">
-          <img class="service__img-4" src={products} alt="" />
-          <div class="text__box">
+        <div className="img__block">
+          <img className="service__img-4" src={products} alt="" />
+          <div className="text__box">
             <p>Quality Products</p>
           </div>
         </div>
-        <div class="img__block">
+        <div className="img__block">
           <img
-            class="service__img-5"
+            className="service__img-5"
             src={equipment}
             alt=""
           />
-          <div class="text__box">
+          <div className="text__box">
             <p>Finest Equipment</p>
           </div>
         </div>
-        <div class="img__block">
-          <img class="service__img-6" src={chair} alt="" />
-          <div class="text__box">
+        <div className="img__block">
+          <img className="service__img-6" src={chair} alt="" />
+          <div className="text__box">
             <p>Comfortable Experience</p>
           </div>
         </div>
