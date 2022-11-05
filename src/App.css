@@ -214,7 +214,7 @@ button {
 .active-link::before {
   content: "";
   position: absolute;
-  background-color: var(--title-color);
+  background-color: var(--text-color);
   width: 100%;
   height: 2px;
   bottom: -0.75rem;
