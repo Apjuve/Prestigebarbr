@@ -12,21 +12,19 @@ const Header = () => {
 
   }, []);
   const [menuState, setMenuState] = React.useState(false);
+  const [scrollState, setScrollState] = React.useState(false);
 
   function scrollHeader() {
-    const header = document.getElementById('header');
-
-    if (this.scrollY >= 80) header.classList.add('scroll-header');
-    else header.classList.remove('scroll-header');
+    if (this.scrollY >= 80) setScrollState(true);
+    else setScrollState(false);
   }
-
   window.addEventListener('scroll', scrollHeader);
 
 
 
 
   return (
-    <header className="header" id="header">
+    <header className={`header ${scrollState ? 'scroll-header' : ''}`} id="header">
       <nav className="nav container">
         <a href="#" className="logo"
         >Prestige<span className="logo-alternate">Barber</span></a
