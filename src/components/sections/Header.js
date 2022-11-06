@@ -23,7 +23,7 @@ const Header = () => {
         <div className={`nav__menu ${menuState ? ' show-menu' : ''}`} id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#" className="nav__link active-link">Home</a>
+              <a href="#" className="nav__link">Home</a>
             </li>
             <li className="nav__item">
               <a href="#about" className="nav__link">About</a>

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Prestigebarbr/static/css/main.76417441.css",
+    "main.js": "/Prestigebarbr/static/js/main.48b07ec8.js",
+    "static/media/Lineup.jpg": "/Prestigebarbr/static/media/Lineup.b382106883a247eab733.jpg",
+    "static/media/styling.jpg": "/Prestigebarbr/static/media/styling.719cf1e4ba703e38564f.jpg",
+    "static/media/products.jpg": "/Prestigebarbr/static/media/products.c06a67a3fc26a6bd59c5.jpg",
+    "static/media/haircut.jpg": "/Prestigebarbr/static/media/haircut.d7b2407165fb2ac6fd1a.jpg",
+    "static/media/equipment.jpg": "/Prestigebarbr/static/media/equipment.3724b14bebda057777b8.jpg",
+    "static/media/chair.jpg": "/Prestigebarbr/static/media/chair.58dad6c128852964cba6.jpg",
+    "static/media/about.jpg": "/Prestigebarbr/static/media/about.d4cc76b3ffd825cc3cff.jpg",
+    "static/media/Hero.jpg": "/Prestigebarbr/static/media/Hero.f39edccf0b1bbd609657.jpg",
+    "static/media/about2.jpg": "/Prestigebarbr/static/media/about2.d38f4d82b9d1ff19bf28.jpg",
+    "index.html": "/Prestigebarbr/index.html",
+    "main.76417441.css.map": "/Prestigebarbr/static/css/main.76417441.css.map",
+    "main.48b07ec8.js.map": "/Prestigebarbr/static/js/main.48b07ec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76417441.css",
+    "static/js/main.48b07ec8.js"
+  ]
+}
