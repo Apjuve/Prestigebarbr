@@ -1,6 +1,16 @@
 import React from 'react'
 
 const Header = () => {
+  React.useEffect(() => {
+    const navLink = document.querySelectorAll('.nav__link')
+
+    function linkAction() {
+      // When we click on each nav__link, we remove the show-menu class
+      setMenuState(false);
+    }
+    navLink.forEach(n => n.addEventListener('click', linkAction))
+
+  }, []);
   const [menuState, setMenuState] = React.useState(false);
 
   function scrollHeader() {
@@ -11,6 +21,8 @@ const Header = () => {
   }
 
   window.addEventListener('scroll', scrollHeader);
+
+
 
 
   return (
