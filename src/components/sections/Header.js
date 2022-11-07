@@ -1,24 +1,25 @@
 import React from 'react'
 
 const Header = () => {
-  React.useEffect(() => {
-    const navLink = document.querySelectorAll('.nav__link')
 
-    function linkAction() {
-      // When we click on each nav__link, we remove the show-menu class
-      setMenuState(false);
-    }
-    navLink.forEach(n => n.addEventListener('click', linkAction))
+  const navLink = document.querySelectorAll('.nav__link')
 
-  }, []);
-  const [menuState, setMenuState] = React.useState(false);
-  const [scrollState, setScrollState] = React.useState(false);
+  function linkAction() {
+    // When we click on each nav__link, we remove the show-menu class
+    setMenuState(false);
+  }
+  navLink.forEach(n => n.addEventListener('click', linkAction))
 
   function scrollHeader() {
     if (this.scrollY >= 80) setScrollState(true);
     else setScrollState(false);
   }
   window.addEventListener('scroll', scrollHeader);
+
+  const [menuState, setMenuState] = React.useState(false);
+  const [scrollState, setScrollState] = React.useState(false);
+
+
 
 
 
