@@ -4,6 +4,7 @@ import About from "./components/sections/About.js"
 import Footer from "./components/sections/Footer.js"
 import Header from "./components/sections/Header.js"
 import Services from "./components/sections/Services.js"
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
@@ -11,15 +12,15 @@ import Services from "./components/sections/Services.js"
 
 function App() {
     return (
-        <>
-            <Hero />
-            <Header />
-            <About />
-            <Services />
-            <Footer />
-
-
-        </>
+        <Router>
+            <>
+                <Hero />
+                <Header />
+                <About />
+                <Services />
+                <Footer />
+            </>
+        </Router>
     );
 }
 

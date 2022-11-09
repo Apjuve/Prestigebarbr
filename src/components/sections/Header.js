@@ -1,6 +1,11 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashLink as NavLink } from 'react-router-hash-link';
 
 const Header = () => {
+
+
+  let activeClassName = "underline";
 
   const navLink = document.querySelectorAll('.nav__link')
 
@@ -34,16 +39,22 @@ const Header = () => {
         <div className={`nav__menu ${menuState ? ' show-menu' : ''}`} id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#" className="nav__link">Home</a>
+              {/* <a href="#" className="nav__link">Home</a> */}
+              <NavLink to='#'
+                // className={'nav__link'}
+                className={'nav__link'}
+              >Home</NavLink>
             </li>
             <li className="nav__item">
-              <a href="#about" className="nav__link">About</a>
+              <NavLink to="/#about"
+                className={'nav__link'}
+              >About</NavLink>
             </li>
             <li className="nav__item">
-              <a href="#services" className="nav__link">Services</a>
+              <NavLink to="/#services" className="nav__link">Services</NavLink>
             </li>
             <li className="nav__item">
-              <a href="#contact" className="nav__link">Contact</a>
+              <NavLink to="/#contact" className="nav__link">Contact</NavLink>
             </li>
           </ul>
 

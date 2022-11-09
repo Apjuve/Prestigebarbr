@@ -1,10 +1,10 @@
 import React from 'react'
-import lineup from '../../images/Lineup.avif';
-import haircut from '../../images/haircut.avif';
-import styling from '../../images/styling.avif';
-import products from '../../images/products.avif';
-import equipment from '../../images/equipment.avif';
-import chair from '../../images/chair.avif';
+import lineup from '../../images/Lineup.jpg';
+import haircut from '../../images/haircut.jpg';
+import styling from '../../images/styling.jpg';
+import products from '../../images/products.jpg';
+import equipment from '../../images/equipment.jpg';
+import chair from '../../images/chair.jpg';
 
 const services = () => {
   return (

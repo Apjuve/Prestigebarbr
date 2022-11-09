@@ -1,6 +1,6 @@
 import React from 'react'
-import aboutImg from '../../images/about.avif';
-import aboutImg2 from '../../images/about2.avif';
+import aboutImg from '../../images/about.jpg';
+import aboutImg2 from '../../images/about2.jpg';
 
 const about = () => {
   return (
