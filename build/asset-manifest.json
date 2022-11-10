@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Prestigebarbr/static/css/main.76417441.css",
-    "main.js": "/Prestigebarbr/static/js/main.d9dcd97d.js",
-    "static/media/Lineup.jpg": "/Prestigebarbr/static/media/Lineup.5bc905bed4808ea65df8.jpg",
-    "static/media/styling.jpg": "/Prestigebarbr/static/media/styling.463ebab3b490a20542bc.jpg",
-    "static/media/products.jpg": "/Prestigebarbr/static/media/products.a3352414c921ab8a32ab.jpg",
+    "main.js": "/Prestigebarbr/static/js/main.c90d3c70.js",
     "static/media/about.jpg": "/Prestigebarbr/static/media/about.c4833bf1b1279ad86085.jpg",
-    "static/media/chair.jpg": "/Prestigebarbr/static/media/chair.b10213f09ae7130d2245.jpg",
-    "static/media/haircut.jpg": "/Prestigebarbr/static/media/haircut.d6c9ca8b4e80157d9760.jpg",
-    "static/media/equipment.jpg": "/Prestigebarbr/static/media/equipment.e83c7a340852a2699177.jpg",
-    "static/media/about2.jpg": "/Prestigebarbr/static/media/about2.c602252578d54ba711c0.jpg",
     "static/media/Hero.jpg": "/Prestigebarbr/static/media/Hero.7094d63e2a2c0a062d3a.jpg",
+    "static/media/Lineup.jpg": "/Prestigebarbr/static/media/Lineup.8f6bf21e4c826401ed11.jpg",
+    "static/media/styling.jpg": "/Prestigebarbr/static/media/styling.8f9a71b82c44a337ef92.jpg",
+    "static/media/haircut.jpg": "/Prestigebarbr/static/media/haircut.ae662c105ed6abf861a5.jpg",
+    "static/media/products.jpg": "/Prestigebarbr/static/media/products.2462d69fd4041cca7564.jpg",
+    "static/media/equipment.jpg": "/Prestigebarbr/static/media/equipment.d20e3e31ec75f3fce806.jpg",
+    "static/media/about2.jpg": "/Prestigebarbr/static/media/about2.eb56e11c9effa8066e3c.jpg",
+    "static/media/chair.jpg": "/Prestigebarbr/static/media/chair.26b045201d012958afa8.jpg",
     "index.html": "/Prestigebarbr/index.html",
     "main.76417441.css.map": "/Prestigebarbr/static/css/main.76417441.css.map",
-    "main.d9dcd97d.js.map": "/Prestigebarbr/static/js/main.d9dcd97d.js.map"
+    "main.c90d3c70.js.map": "/Prestigebarbr/static/js/main.c90d3c70.js.map"
   },
   "entrypoints": [
     "static/css/main.76417441.css",
-    "static/js/main.d9dcd97d.js"
+    "static/js/main.c90d3c70.js"
   ]
 }
