@@ -10,16 +10,16 @@ const Footer = () => {
           <h3 className="footer__title">Our Address</h3>
 
           <ul className="footer__data">
-            <li className="footer__information">1234 - Peru</li>
-            <li className="footer__information">La Libertad - 43210</li>
-            <li className="footer__information">123-456-789</li>
+            <li className="footer__information">1412 Blowing Rock Blvd</li>
+            <li className="footer__information">Lenoir, NC 28645</li>
+            <li className="footer__information">828-572-7000</li>
           </ul>
         </div>
         <div className="contact__info">
           <h3 className="footer__title">Contact Us</h3>
 
           <ul className="footer__data">
-            <li className="footer__information">+999 888 777</li>
+            <li className="footer__information">+828 449 4020</li>
 
             <div className="footer__social">
               <a
