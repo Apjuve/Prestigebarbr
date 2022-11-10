@@ -1,16 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HashLink as NavLink } from 'react-router-hash-link';
 
 const Header = () => {
-
-
-  let activeClassName = "underline";
 
   const navLink = document.querySelectorAll('.nav__link')
 
   function linkAction() {
-    // When we click on each nav__link, we remove the show-menu class
     setMenuState(false);
   }
   navLink.forEach(n => n.addEventListener('click', linkAction))
@@ -33,28 +27,24 @@ const Header = () => {
     <header className={`header ${scrollState ? 'scroll-header' : ''}`} id="header">
       <nav className="nav container">
         <a href="#" className="logo"
-        >Prestige<span className="logo-alternate">Barber</span></a
-        >
-
+        >Prestige<span className="logo-alternate">Barber</span></a>
         <div className={`nav__menu ${menuState ? ' show-menu' : ''}`} id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              {/* <a href="#" className="nav__link">Home</a> */}
-              <NavLink to='#'
-                // className={'nav__link'}
+              <a href='#'
                 className={'nav__link'}
-              >Home</NavLink>
+              >Home</a>
             </li>
             <li className="nav__item">
-              <NavLink to="/#about"
+              <a href="#about"
                 className={'nav__link'}
-              >About</NavLink>
+              >About</a>
             </li>
             <li className="nav__item">
-              <NavLink to="/#services" className="nav__link">Services</NavLink>
+              <a href="#services" className={'nav__link'}>Services</a>
             </li>
             <li className="nav__item">
-              <NavLink to="/#contact" className="nav__link">Contact</NavLink>
+              <a href="#contact" className={"nav__link"}>Contact</a>
             </li>
           </ul>
 
