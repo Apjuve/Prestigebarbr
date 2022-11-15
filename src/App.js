@@ -4,7 +4,7 @@ import About from "./components/sections/About.js"
 import Footer from "./components/sections/Footer.js"
 import Header from "./components/sections/Header.js"
 import Services from "./components/sections/Services.js"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
@@ -20,9 +20,7 @@ function App() {
                     <About />
                     <Services />
                     <Footer /></>}>
-
                 </Route>
-                <></>
                 <Route path='/more' element={<>Hello world</>}>
                 </Route>
             </Routes>
