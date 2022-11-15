@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Prestigebarbr/static/css/main.76417441.css",
-    "main.js": "/Prestigebarbr/static/js/main.20f2277c.js",
+    "main.js": "/Prestigebarbr/static/js/main.8c7267cc.js",
     "static/media/blades.jpg": "/Prestigebarbr/static/media/blades.c4833bf1b1279ad86085.jpg",
     "static/media/hero.jpg": "/Prestigebarbr/static/media/hero.7094d63e2a2c0a062d3a.jpg",
     "static/media/Lineup.jpg": "/Prestigebarbr/static/media/Lineup.8f6bf21e4c826401ed11.jpg",
@@ -13,10 +13,10 @@
     "static/media/chair.jpg": "/Prestigebarbr/static/media/chair.26b045201d012958afa8.jpg",
     "index.html": "/Prestigebarbr/index.html",
     "main.76417441.css.map": "/Prestigebarbr/static/css/main.76417441.css.map",
-    "main.20f2277c.js.map": "/Prestigebarbr/static/js/main.20f2277c.js.map"
+    "main.8c7267cc.js.map": "/Prestigebarbr/static/js/main.8c7267cc.js.map"
   },
   "entrypoints": [
     "static/css/main.76417441.css",
-    "static/js/main.20f2277c.js"
+    "static/js/main.8c7267cc.js"
   ]
 }
