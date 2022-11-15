@@ -1,4 +1,5 @@
 import React from 'react'
+import { Router, Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -45,6 +46,9 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a href="#contact" className={"nav__link"}>Contact</a>
+            </li>
+            <li className="nav__item">
+              <Link to="/more" className={"nav__link"}>More</Link>
             </li>
           </ul>
 
