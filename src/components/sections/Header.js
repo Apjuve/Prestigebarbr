@@ -1,5 +1,6 @@
 import React from 'react'
 import { Router, Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
 
@@ -32,20 +33,20 @@ const Header = () => {
         <div className={`nav__menu ${menuState ? ' show-menu' : ''}`} id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href='#'
+              <HashLink to='#'
                 className={'nav__link'}
-              >Home</a>
+              >Home</HashLink>
             </li>
             <li className="nav__item">
-              <a href="#about"
+              <HashLink to="#about"
                 className={'nav__link'}
-              >About</a>
+              >About</HashLink>
             </li>
             <li className="nav__item">
-              <a href="#services" className={'nav__link'}>Services</a>
+              <HashLink to="#services" className={'nav__link'}>Services</HashLink>
             </li>
             <li className="nav__item">
-              <a href="#contact" className={"nav__link"}>Contact</a>
+              <HashLink to="#contact" className={"nav__link"}>Contact</HashLink>
             </li>
             <li className="nav__item">
               <Link to="/more" className={"nav__link"}>More</Link>
