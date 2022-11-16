@@ -4,6 +4,7 @@ import About from "./components/sections/About.js"
 import Footer from "./components/sections/Footer.js"
 import Header from "./components/sections/Header.js"
 import Services from "./components/sections/Services.js"
+import More from './components/More.js'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -21,7 +22,7 @@ function App() {
                     <Services />
                     <Footer /></>}>
                 </Route>
-                <Route path='/more' element={<>Hello world</>}>
+                <Route path='/more' element={<More />}>
                 </Route>
             </Routes>
 
