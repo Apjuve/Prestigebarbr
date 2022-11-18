@@ -309,7 +309,8 @@ button {
   left: -30px;
 }
 
-.services__images {
+.services__images,
+.style__images {
   display: grid;
   justify-content: center;
   grid-template-columns: 290px;
@@ -399,7 +400,8 @@ button {
     left: 10px;
   }
 
-  .services__images {
+  .services__images,
+  .style__images {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 300px);
@@ -497,16 +499,8 @@ button {
     left: -100px;
   }
 
-  .services__images {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 290px);
-    grid-template-rows: 450px 450px;
-    column-gap: 10px;
-    row-gap: 10px;
-  }
-
-  .services__images {
+  .services__images,
+  .style__images {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 290px);
