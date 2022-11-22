@@ -5,7 +5,7 @@ import Home from './Home';
 const hero = () => {
   return (
     <div className="hero">
-      <img src={heroImg} className="home__img" alt="" />
+      <img src={heroImg} className="home__img" alt="guy in chair" />
       <Home></Home>
     </div>
 

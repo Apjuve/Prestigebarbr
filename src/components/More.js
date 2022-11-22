@@ -36,47 +36,47 @@ const More = () => {
 
             <div className="style__images">
                 <div className="img__block">
-                    <img src={style1} alt="" />
+                    <img src={style1} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style2} alt="" />
+                    <img src={style2} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style3} alt="" />
+                    <img src={style3} alt="hairstyle" />
 
                 </div>
                 <div className="img__block">
-                    <img src={style4} alt="" />
+                    <img src={style4} alt="hairstyle" />
                 </div>
                 <div className="img__block">
                     <img
                         src={style5}
-                        alt=""
+                        alt="hairstyle"
                     />
                 </div>
                 <div className="img__block">
-                    <img src={style6} alt="" />
+                    <img src={style6} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style7} alt="" />
+                    <img src={style7} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style8} alt="" />
+                    <img src={style8} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style9} alt="" />
+                    <img src={style9} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style10} alt="" />
+                    <img src={style10} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style11} alt="" />
+                    <img src={style11} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style12} alt="" />
+                    <img src={style12} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style13} alt="" />
+                    <img src={style13} alt="hairstyle" />
                 </div>
                 {/* <div className="img__block">
                     <img src={style14} alt="" />
@@ -85,31 +85,31 @@ const More = () => {
                     <img src={style15} alt="" />
                 </div> */}
                 <div className="img__block">
-                    <img src={style16} alt="" />
+                    <img src={style16} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style17} alt="" />
+                    <img src={style17} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style18} alt="" />
+                    <img src={style18} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style19} alt="" />
+                    <img src={style19} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style20} alt="" />
+                    <img src={style20} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style21} alt="" />
+                    <img src={style21} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style22} alt="" />
+                    <img src={style22} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style23} alt="" />
+                    <img src={style23} alt="hairstyle" />
                 </div>
                 <div className="img__block">
-                    <img src={style24} alt="" />
+                    <img src={style24} alt="hairstyle" />
                 </div>
             </div>
         </section>

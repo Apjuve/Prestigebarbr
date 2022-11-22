@@ -14,19 +14,19 @@ const services = () => {
       <div className="services__images">
 
         <div className="img__block">
-          <img src={lineup} alt="" />
+          <img src={lineup} alt="barber service" />
           <div className="text__box">
             <p>Line-ups</p>
           </div>
         </div>
         <div className="img__block">
-          <img src={haircut} alt="" />
+          <img src={haircut} alt="barber service" />
           <div className="text__box">
             <p>Beard Trims</p>
           </div>
         </div>
         <div className="img__block">
-          <img src={styling} alt="" />
+          <img src={styling} alt="barber service" />
           <div className="text__box">
             <p>Styling</p>
           </div>
@@ -34,7 +34,7 @@ const services = () => {
 
 
         <div className="img__block">
-          <img src={products} alt="" />
+          <img src={products} alt="barber service" />
           <div className="text__box">
             <p>Quality Products</p>
           </div>
@@ -42,14 +42,14 @@ const services = () => {
         <div className="img__block">
           <img
             src={equipment}
-            alt=""
+            alt="barber service"
           />
           <div className="text__box">
             <p>Finest Equipment</p>
           </div>
         </div>
         <div className="img__block">
-          <img src={chair} alt="" />
+          <img src={chair} alt="barber service" />
           <div className="text__box">
             <p>Comfortable Experience</p>
           </div>
