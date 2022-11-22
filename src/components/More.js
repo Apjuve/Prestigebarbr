@@ -31,8 +31,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const More = () => {
-    const [scrollState, setScrollState] = React.useState('');
-    const [menuState, setMenuState] = React.useState('');
+    const [scrollState, setScrollState] = React.useState(false);
+    const [menuState, setMenuState] = React.useState(false);
+
+
+    function scrollHeader() {
+        if (this.scrollY >= 80) setScrollState(true);
+        else setScrollState(false);
+    }
+    window.addEventListener('scroll', scrollHeader);
+
 
     return (
         <>
