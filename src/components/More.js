@@ -34,6 +34,12 @@ const More = () => {
     const [scrollState, setScrollState] = React.useState(false);
     const [menuState, setMenuState] = React.useState(false);
 
+    const navLink = document.querySelectorAll('.nav__link')
+
+    function linkAction() {
+        setMenuState(false);
+    }
+    navLink.forEach(n => n.addEventListener('click', linkAction))
 
     function scrollHeader() {
         if (this.scrollY >= 80) setScrollState(true);
@@ -52,6 +58,11 @@ const More = () => {
                                 <Link to="/" className={"nav__link"}>Back</Link>
                             </li>
                         </ul>
+                        <i className="ri-close-line nav__close" id="nav-close" onClick={() => setMenuState(false)}></i>
+                    </div>
+
+                    <div className="nav__toggle" id="nav-toggle" onClick={() => setMenuState(true)}>
+                        <i className="ri-function-line" ></i>
                     </div>
                 </nav>
             </header>
