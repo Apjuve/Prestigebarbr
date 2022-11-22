@@ -78,12 +78,12 @@ const More = () => {
                 <div className="img__block">
                     <img src={style13} alt="" />
                 </div>
-                <div className="img__block">
+                {/* <div className="img__block">
                     <img src={style14} alt="" />
                 </div>
                 <div className="img__block">
                     <img src={style15} alt="" />
-                </div>
+                </div> */}
                 <div className="img__block">
                     <img src={style16} alt="" />
                 </div>
