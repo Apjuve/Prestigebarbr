@@ -1,6 +1,6 @@
 {
   "name": "prestigebarbr",
-  "homepage": "https://prestigebarbershop.org/",
+  "homepage": "https://prestigebarbershop.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
