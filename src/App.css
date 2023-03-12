@@ -467,9 +467,7 @@ button {
   }
 
   .about__info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
   }
 
   .about__text {
@@ -484,7 +482,6 @@ button {
   .about__text p {
     line-height: 1.75rem;
     overflow-wrap: break-word;
-    inline-size: 275px;
   }
 
   .about__images {
